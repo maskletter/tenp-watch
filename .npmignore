@@ -1,0 +1,5 @@
+user-config
+main/
+node_modules/
+.git
+tsconfig.json

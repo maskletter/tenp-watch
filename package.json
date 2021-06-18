@@ -1,0 +1,26 @@
+{
+  "name": "@tenp/watch",
+  "version": "1.0.5",
+  "description": "监听，转发，模拟，控制请求",
+  "main": "app.js",
+  "bin": {
+    "proxy": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --watch"
+  },
+  "author": "maskletter",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "nanoid": "^3.1.23",
+    "socket.io": "^4.1.1",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
