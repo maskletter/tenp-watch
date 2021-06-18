@@ -3,6 +3,14 @@
 - 监听/控制/转发/拦截/模拟http请求
 - 用于测试环境对接口的请求，控制，监听，以及模拟和错误状态网络延迟等功能
 
+## 安装
+```base
+$ npm i @tenp/watch -g
+// 如果是linux/mac系统
+$ sudo npm i @tenp/watch -g
+```
+
+## 常用命令
 ```base
 --config                        查看默认配置
 --set                           设置默认配置
