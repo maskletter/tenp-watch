@@ -49,7 +49,9 @@ $ proxy kill 1234
 $ proxy list
 ```
 ![image](https://user-images.githubusercontent.com/15777183/122579669-b887c500-d087-11eb-9b7f-860fec7e0d2e.png)
-
+- 请求路径: ajax转发地址，将请求此地址接口转发到正常配置的url上
+- web地址：为监听控制界面，即下面的系统界面
+- pid：为系统进程
 
 ## 系统界面
 ![QQ截图20210618221922](https://user-images.githubusercontent.com/15777183/122579402-752d5680-d087-11eb-8502-396480fe8e1c.png)
